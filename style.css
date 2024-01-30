@@ -1,1 +1,36 @@
+body {
+    background-color: #002e2c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #59a96a;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ffebc6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ffd2fc;
+    text-align: center;
+    padding: 20px;
+}
 
