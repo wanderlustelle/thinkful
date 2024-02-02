@@ -19,25 +19,27 @@ section {
     margin-bottom: 20px;
 }
 
-.about-column-1,
-.about-column-2 {
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 20px; 
-}
+.section-container {
+    display: flex;
+    flex-direction: row;
+  justify-content:center;
+    margin:auto;
+  
+  .about-column-1, .about-column-2{
+    padding: 10px 60px;
+    max-width: 300px;
+   line-height: 1.9;
+  }
 
-.about-column-2 {
-    border-left: 1px solid #ffffff; 
 }
-
 a {
-    color: #ffebc6;
+    color: #002e2c;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color:  #59a96a;
+    color: #59a96a;
 }
 
 footer {
