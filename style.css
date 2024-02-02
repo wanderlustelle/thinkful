@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #59a96a;
+    background-color: #002e2c;
     text-align: center;
     padding: 20px;
 }
@@ -19,13 +19,20 @@ section {
     margin-bottom: 20px;
 }
 
+
+.section-container{
+    display:flexbox;
+    flex-direction: row;
+}
+
 a {
-    color: #ffebc6;
+    color: #002e2c;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #002e2c
 }
 
 footer {
