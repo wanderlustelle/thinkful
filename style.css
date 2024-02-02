@@ -1,7 +1,7 @@
 body {
     background-color: #002e2c;
     color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -18,24 +18,31 @@ main {
 section {
     margin-bottom: 20px;
 }
-p{
-  line-height: 1.8;
-  max-width: 80vw;
-margin:auto;
+ 
+h1 {
+    font-family: 'Playfair Display', serif;
 }
+
+p {
+    line-height: 1.8;
+    max-width: 80vw;
+    margin: auto;
+}
+
 .section-container {
     display: flex;
     flex-direction: row;
-  justify-content:center;
-    margin:auto;
-  
-  .about-column-1, .about-column-2{
+    justify-content: center;
+    margin: auto;
+}
+
+.about-column-1,
+.about-column-2 {
     padding: 10px 60px;
     max-width: 300px;
-   line-height: 1.9;
-  }
-
+    line-height: 1.9;
 }
+
 a {
     color: #002e2c;
     text-decoration: none;
