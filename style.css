@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #002e2c;
+    background-color: #59a96a;
     text-align: center;
     padding: 20px;
 }
@@ -19,20 +19,25 @@ section {
     margin-bottom: 20px;
 }
 
+.about-column-1,
+.about-column-2 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px; 
+}
 
-.section-container{
-    display:flexbox;
-    flex-direction: row;
+.about-column-2 {
+    border-left: 1px solid #ffffff; 
 }
 
 a {
-    color: #002e2c;
+    color: #ffebc6;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #002e2c
+    color:  #59a96a;
 }
 
 footer {
@@ -41,4 +46,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
