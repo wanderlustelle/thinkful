@@ -46,8 +46,10 @@ p {
     padding-bottom: 30px;
 }
 hr{
-    color:#ffd2fc;
-    padding: 10px 20px;
+    height: 10px;
+    border: none;
+    position: relative;
+    background:#ffd2fc;
 }
 .section-container {
     display: flex;
