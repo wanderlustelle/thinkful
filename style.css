@@ -18,7 +18,11 @@ main {
 section {
     margin-bottom: 20px;
 }
-
+p{
+  line-height: 1.8;
+  max-width: 80vw;
+margin:auto;
+}
 .section-container {
     display: flex;
     flex-direction: row;
