@@ -19,8 +19,9 @@ section {
     margin-bottom: 20px;
 }
  
-h1 {
+h1,h2 {
     font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
 }
 
 p {
