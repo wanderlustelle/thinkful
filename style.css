@@ -20,14 +20,28 @@ section {
 }
  
 h1,h2 {
-    font-family: 'Playfair Display', serif;
+
     letter-spacing: 3px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+h2{
+    font-family: 'Poppins', san-serif;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    font-size: 28px
+    
 }
 
 p {
     line-height: 1.8;
     max-width: 80vw;
     margin: auto;
+    font-size: 20px;
 }
 
 .section-container {
