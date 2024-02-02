@@ -42,7 +42,10 @@ p {
     margin: auto;
     font-size: 20px;
 }
-
+hr{
+    color:#ffd2fc;
+    padding: 10px 20px;
+}
 .section-container {
     display: flex;
     flex-direction: row;
